@@ -5,23 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <a href="/index.html">Главная</a>
-    <a href="/info/about.html">Обо мне</a>
-    <a href="/order.html">Заказ</a>
-    <h1>Оставить заявку</h1>
+    <div class="menu">
+        <a class="menu__link" href="./index.html">Главная</a>
+        <a class="menu__link" href="./info/about.html">Обо мне</a>
+        <a class="menu__link" href="./order.html">Заказ</a>
+    </div>
+    <h1 class="head">Оставить заявку</h1>
     <form action="">
         <label for="name">Ваше имя</label>
-        <input type="name" id="name" placeholder="Введите имя">
+        <input class="input_form_style" type="name" id="name" placeholder="Введите имя">
         <br>
         <label for="email">Почтовый ящик</label>
-        <input type="email" id="email" placeholder="Почтовый ящик">
+        <input class="input_form_style" type="email" id="email" placeholder="Почтовый ящик">
         <br>
-        <input type="submit" value="Отправить">
-        <input type="reset" value="Стереть" />
-
+        <input class="button_form_style" type="submit" value="Отправить">
+        <input class="button_form_style" type="reset" value="Стереть" />
     </form>
 
 </body>
