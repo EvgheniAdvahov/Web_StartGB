@@ -42,6 +42,10 @@ body {
     text-decoration: none;
 }
 
+details>summary {
+    list-style: none;
+}
+
 .header__menu {
     padding-top: 51px;
     padding-bottom: 33px;
@@ -103,9 +107,4 @@ body {
 .top_logo {
     padding-top: 97px;
     padding-bottom: 85;
-}
-
-
-details>summary {
-    list-style: none;
 }
