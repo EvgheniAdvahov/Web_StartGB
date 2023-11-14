@@ -24,6 +24,27 @@ body {
     gap: 14px;
 }
 
+.header_logo__text {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.header_logo_text__color {
+    color: #F25822;
+}
+
+.header__menu {
+    display: flex;
+    gap: 35px;
+}
+
 .header_menu_link__home {
     color: #F25822;
     font-family: Gilroy-Medium;
@@ -58,39 +79,11 @@ details>summary {
     list-style: none;
 }
 
-.header__menu {
-    display: flex;
-    gap: 5px;
-
-}
-
-.header_logo__text {
-    color: #000;
-    font-family: Gilroy-Bold;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    /* ??????????? */
-}
-
-.header_logo_text__color {
-    color: #F25822;
-    font-family: Gilroy-Bold;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-
 .top {
-    display: flex;
     padding-top: 44px;
     padding-bottom: 162px;
+    display: flex;
+    gap: 41px;
 }
 
 .top_content_data__h1 {
@@ -115,7 +108,7 @@ details>summary {
 .top_content__buttons {
     margin-top: 37px;
     display: flex;
-    gap: 5px;
+    gap: 37px;
 }
 
 .top_content__button {
@@ -130,6 +123,9 @@ details>summary {
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
     padding: 15px 35px;
     align-items: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .top__logotip {
