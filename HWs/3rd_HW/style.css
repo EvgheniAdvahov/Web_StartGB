@@ -68,7 +68,7 @@ body {
 .header_menu_link__features {
     color: #000;
     font-family: Gilroy-Medium;
-    font-size: 14px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -133,4 +133,18 @@ details>summary {
     padding-bottom: 97px;
     display: flex;
     justify-content: space-between;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("./fonts/GilroyBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("./fonts/GilroyMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
 }
