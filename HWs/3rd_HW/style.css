@@ -3,6 +3,21 @@
     margin: 0px;
 }
 
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("./fonts/GilroyBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("./fonts/GilroyMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+
 body {
     background: #FFF;
 }
@@ -133,18 +148,4 @@ details>summary {
     padding-bottom: 97px;
     display: flex;
     justify-content: space-between;
-}
-
-@font-face {
-    font-family: "Gilroy-Bold";
-    src: url("./fonts/GilroyBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: "Gilroy-Medium";
-    src: url("./fonts/GilroyMedium.ttf") format("truetype");
-    font-style: normal;
-    font-weight: 500;
 }
