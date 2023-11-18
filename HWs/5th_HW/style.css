@@ -118,15 +118,10 @@ body {
 }
 
 .middle_content_grid__block {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; */
-
+    /* display: grid; */
 }
 
 .middle_content_grid_block__image {
-    /* width: 400px;
-    height: 300px;
-    flex-shrink: 0; */
     /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 }
 
