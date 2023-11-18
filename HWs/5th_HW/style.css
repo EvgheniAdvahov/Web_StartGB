@@ -122,7 +122,7 @@ body {
 }
 
 .middle_content_grid_block__image {
-    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+    /* background: url(./img/middle_gird_img1.png), rgb(224, 8, 8) 5000% / cover no-repeat; */
 }
 
 .middle_content_grid_block__h4 {
