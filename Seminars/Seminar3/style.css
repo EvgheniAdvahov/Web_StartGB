@@ -100,3 +100,27 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+@media(max-width: 1024px) {
+
+    .top {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .center {
+        padding-left: calc(50% - 302px);
+        padding-right: calc(50% - 302px);
+    }
+
+    .top__logo {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        gap: 32px;
+        justify-content: center;
+    }
+
+
+}

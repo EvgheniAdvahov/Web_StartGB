@@ -29,14 +29,17 @@ body {
 .middle_grid__top {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 60px;
+    gap: 30px;
     padding-top: 140px;
-    padding-bottom: 125px;
+    padding-bottom: 100px;
 }
 
 .middle_grid_top__content {
     padding-left: 30px;
     padding-top: 40px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
 }
 
 .middle_grid_top_content__image {
@@ -78,7 +81,8 @@ body {
 
 .middle__content {
     padding-top: 92px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
+    /*было 150px*/
     background: #FAFAFA;
 }
 
@@ -118,11 +122,15 @@ body {
 }
 
 .middle_content_grid__block {
-    /* display: grid; */
+    padding-bottom: 50px;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+    background-color: #FFF;
+    /* тут добавил */
 }
 
 .middle_content_grid_block__image {
-    /* background: url(./img/middle_gird_img1.png), rgb(224, 8, 8) 5000% / cover no-repeat; */
+    background: url(./img/middle_gird_img1.png), lightgray 50% / cover no-repeat;
+
 }
 
 .middle_content_grid_block__h4 {
