@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
@@ -26,12 +28,16 @@
 }
 
 .top__title {
-    display: grid;
-    grid-template-columns: 2fr;
-    grid-template-rows: 2fr;
-    align-self: center;
-    border-left: solid #F16D7F;
+    display: flex;
     border-left-width: 12px;
+    flex-direction: column;
+    margin-top: 290px;
+    margin-left: 64px;
+}
+
+.top_title__border {
+    border-left: solid #F16D7F;
+    border-width: 12px;
     padding-left: 16px;
 }
 
@@ -112,6 +118,47 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 30px;
+}
+
+.middle_content_grid__item {
+    background-color: #F8F8F8;
+    ;
+}
+
+.middle_content_grid_item__content {
+    padding-top: 24px;
+    padding-bottom: 20px;
+    padding-left: 16px;
+    padding-right: 28px;
+}
+
+.middle_content_grid__title {
+    margin-bottom: 13px;
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.middle_content_grid__paragraph {
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.middle_content_grid__price {
+    margin-top: 18px;
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .middle_content__button {
