@@ -87,16 +87,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    /* position: relative; */
 }
 
-.top_content_grid_item__rectangle-shadow {
+.top_content_grid_item__rectangle_shadow {
     background-color: rgba(33, 22, 22, 0.70);
-    position: absolute;
+    /* position: absolute; */
 }
 
 .top_content_grid_item__img {
     position: absolute;
+    opacity: 0.3;
 }
 
 .top_content_grid_item_overlay_text {
