@@ -124,3 +124,11 @@ body {
 
 
 }
+
+@media(max-width: 767px) {
+    .header {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1199.98px) {}
