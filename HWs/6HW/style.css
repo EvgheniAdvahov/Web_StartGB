@@ -85,6 +85,10 @@
     gap: 30px;
 }
 
+.small_visibillity {
+    display: none !important;
+}
+
 
 .top_content_grid__item {
     position: relative;
@@ -253,8 +257,8 @@
     }
 
     .promo img {
-        width: 100%;
-        height: 100%;
+        max-width: 384px;
+        max-height: 384px;
     }
 
     .promo__title h1 {
@@ -294,7 +298,7 @@
 
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 392px) and (max-width: 767px) {
 
     .center {
         padding-left: calc(50% - 180px);
@@ -302,7 +306,7 @@
     }
 
     .visibillity {
-        display: none !important;
+        display: none;
     }
 
     .small_visibillity {
@@ -350,6 +354,7 @@
         display: flex;
     }
 
+
     .top_content_grid_item__img {
         width: 100%;
         height: 100%;
@@ -362,4 +367,91 @@
     .catalog__grid {
         gap: 16px;
     }
+
+}
+
+@media (min-width: 320px) and (max-width: 391px)
+{
+
+    .center {
+        padding-left: calc(50% - 180px);
+        padding-right: calc(50% - 180px);
+    }
+
+    .header {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .visibillity {
+        display: none;
+    }
+
+    .small_visibillity {
+        display: block;
+    }
+
+    .catalog__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .mobile__position {
+        margin-top: 148px;
+        margin-bottom: 148px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .promo {
+        justify-content: center;
+    }
+
+    .promo__title h1 {
+        font-size: 38px;
+    }
+
+    .promo__title h2 {
+        font-size: 20px;
+    }
+
+    .promo__title_h2_color {
+        font-size: 20px;
+    }
+
+    .top__content {
+        padding-left: 16px;
+        padding-right: 16px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 248px 248px 248px 111px;
+        gap: 32px;
+    }
+
+    .container_big {
+        display: none;
+    }
+
+    .container_small {
+        display: flex;
+    }
+
+
+    .top_content_grid_item__img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .catalog {
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-bottom: 40px;
+    }
+
+    .catalog__grid {
+        gap: 16px;
+    }
+
+    .catalog_grid__item img {
+        max-width: 100%;
+    }
+
 }
