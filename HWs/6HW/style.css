@@ -85,10 +85,6 @@
     gap: 30px;
 }
 
-.small_visibillity {
-    display: none !important;
-}
-
 
 .top_content_grid__item {
     position: relative;
@@ -102,6 +98,10 @@
 .container_big {
     /* grid-column: 1 / -1; */
     grid-area: 2 / 1 / 3 / 4;
+}
+
+.container_small {
+    display: none;
 }
 
 
@@ -340,6 +340,14 @@
         grid-template-columns: 1fr;
         grid-template-rows: 248px 248px 248px 111px;
         gap: 32px;
+    }
+
+    .container_big {
+        display: none;
+    }
+
+    .container_small {
+        display: flex;
     }
 
     .top_content_grid_item__img {
