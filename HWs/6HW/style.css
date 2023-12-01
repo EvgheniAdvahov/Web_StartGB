@@ -294,7 +294,7 @@
 
 }
 
-@media (min-width: 376px) and (max-width: 767.5px) {
+@media (min-width: 376px) and (max-width: 767px) {
 
     .center {
         padding-left: calc(50% - 180px);
@@ -369,8 +369,7 @@
 
 }
 
-
-@media (min-width: 320px) and (max-width: 376px) {
+@media (min-width: 320px) and (max-width: 375px) {
 
     .header {
         padding-left: 16px;
@@ -448,5 +447,6 @@
     .catalog_grid__item img {
         max-width: 100%;
     }
+
 
 }
