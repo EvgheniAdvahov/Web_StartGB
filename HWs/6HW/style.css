@@ -274,7 +274,6 @@
     }
 
     .top__content {
-        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 168px 117px;
         padding-bottom: 109px;
     }
@@ -370,6 +369,7 @@
     }
 
 }
+
 
 @media (min-width: 320px) and (max-width: 391px) {
 
