@@ -1,0 +1,56 @@
+.header_right_grup__logo svg:nth-child(1):hover {
+    transform: scale(2);
+}
+
+/* .header_right_grup__logo svg:last-child {
+    position: relative;
+}
+
+.header_right_grup__logo svg:last-child::before {
+    content: 5;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    color: #FFF;
+} */
+
+
+header svg:hover {
+    transform: scale(1.15);
+}
+
+.catalog__button:hover {
+    background-color: #F26376;
+    color: #FFF;
+}
+
+.catalog__button:active {
+    background-color: #933b47;
+}
+
+.newsletter_subscribe__input:focus {
+    outline: 0.5px solid #63757c;
+}
+
+.newsletter_subscribe__submit:hover {
+    font-size: 14.5px;
+}
+
+.newsletter_subscribe__submit:active {
+    background-color: #933b47;
+}
+
+.footer_icons_right svg:hover path {
+    color: #FFF;
+}
+
+.svg:hover path {
+    /* fill: red; */
+    color: aqua;
+}
