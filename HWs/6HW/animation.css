@@ -1,31 +1,12 @@
-.header_right_grup__logo svg:nth-child(1):hover {
-    transform: scale(2);
-}
-
-/* .header_right_grup__logo svg:last-child {
-    position: relative;
-}
-
-.header_right_grup__logo svg:last-child::before {
-    content: 5;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0px;
-    right: 0;
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    color: #FFF;
-} */
-
-
 header svg:hover {
     transform: scale(1.15);
 }
 
-.catalog__grid:first-child .catalog_card_img_wrapper__img {
+header svg:hover path {
+    fill: rgb(227, 134, 20)
+}
+
+.catalog_grid__item:hover .catalog_card_img_wrapper__img {
     z-index: -1;
 }
 
@@ -50,6 +31,10 @@ header svg:hover {
     background-color: #933b47;
 }
 
-.footer_icons_right svg:hover path {
-    color: #FFF;
+.footer_icons_right svg:hover .svg_path_one {
+    fill: #F26376;
+}
+
+.footer_icons_right svg:hover .svg_path_two {
+    fill: white;
 }

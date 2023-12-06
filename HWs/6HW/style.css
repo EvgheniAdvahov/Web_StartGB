@@ -181,10 +181,10 @@
     gap: 30px;
 }
 
-.catalog_grid__item {
-    background-color: #F8F8F8;
-    z-index: -2;
-}
+/* .catalog_grid__item {
+    /* background-color: #F8F8F8; */
+/* z-index: -2; */
+/* } */
 
 .catalog_card__img_wrapper {
     position: relative;
@@ -220,6 +220,7 @@
 
 
 .catalog_grid_item__content {
+    background-color: #F8F8F8;
     padding-top: 24px;
     padding-bottom: 20px;
     padding-left: 16px;
